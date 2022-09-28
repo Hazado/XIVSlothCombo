@@ -353,7 +353,7 @@ namespace XIVSlothCombo.Combos.PvE
 
                         //Ruin 2 Movement 
                         if (IsEnabled(CustomComboPreset.SCH_DPS_Ruin2Movement) &&
-                            LevelChecked(Ruin2) && InCombat() &&
+                            LevelChecked(Ruin2) &&
                             IsMoving) return OriginalHook(Ruin2); //Who knows in the future
 
                         //AlterateMode idles as Ruin/Broil
